@@ -4,9 +4,8 @@ import time
 
 t = turtle.Turtle()
 
-# question 1
-# worlds ugliest car without tires
-#front end
+
+# front end
 t.forward(40)
 t.right(40)
 t.forward(20)
@@ -16,7 +15,7 @@ t.right(10)
 t.forward(5)
 t.right(80)
 t.forward(20) 
-#underside
+# underside
 t.right(90)
 t.forward(20)
 t.right(45)
@@ -36,7 +35,7 @@ t.forward(10)
 t.right(45)
 t.forward(20)
  
-#rear
+# rear
 t.right(90)
 t.forward(20)
 t.right(90)
@@ -59,7 +58,7 @@ t.left(100)
 t.forward(30)
 t.left(45)
 t.home()
-# very thin car
+
 time.sleep(2)
 t.home()
 t.clear()
