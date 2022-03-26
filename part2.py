@@ -27,3 +27,4 @@ def stairs_down1(x):
   t.clear()
 
 stairs_down1(20)
+turtle.getscreen()._root.mainloop()
