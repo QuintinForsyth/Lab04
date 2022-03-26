@@ -29,16 +29,16 @@ def chess_board(size, total_to_loop,two_per_row): # does two rows
   for i in range(total_to_loop):
     count = count + 1
     
-    for n in range(two_per_row):
-      turtle.color("black")
+    for n in range(two_per_row): # makes first line go white, black, white, black and so on
+      turtle.color("black") # chooses color black
       draw_square(size)
-      t.begin_fill()
+      t.begin_fill() #begins filling in as black
       draw_square(size)
-      t.end_fill()
+      t.end_fill() # stops
 
     teleports(size, count)
     
-    for n in range(two_per_row):
+    for n in range(two_per_row): # second grid makes the color go black, white, black, white and so on
         turtle.color("black")
         t.begin_fill()
         draw_square(size)
