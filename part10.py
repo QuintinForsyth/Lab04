@@ -1,9 +1,4 @@
-#Create a chess/checkerboard 
-#Use the fill feature for squares
-#create a shapes.py and put the functions in there
-#call those functions from main.py (import shapes)
-#Use loops to create the board!
-#Use docstrings for in shapes.py
+
 import turtle
 import time
 
