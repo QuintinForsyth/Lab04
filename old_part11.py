@@ -4,7 +4,7 @@ import time
 
 t = turtle.Turtle()
 
-
+t.write("Quintin Forsyth")
 def Q():
     t.penup()
     t.goto(-20, -7)

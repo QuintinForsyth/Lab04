@@ -24,7 +24,7 @@ def draw_square(size):
   t.forward(size)
 
   
-def chess_board(size, total_to_loop,two_per_row): # does two rows 
+def chess_board(size, total_to_loop,two_per_row,color1,color2): # does two rows 
   count = 0
   for i in range(total_to_loop):
     count = count + 1
